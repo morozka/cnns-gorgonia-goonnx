@@ -1,0 +1,30 @@
+{
+    "layers": [
+        {
+            "name": "ful",
+            "type": "fulc",
+            "params": {
+                "outsize": 2,
+                "activation": "sigm"
+            }
+        },
+        {
+            "name": "fulout",
+            "type": "fulc",
+            "params": {
+                "outsize": 1,
+                "activation": "sigm"
+            }
+        }
+    ],
+    "insize": [
+        1,
+        2
+    ],
+    "net": [
+        "ful",
+        "ful",
+        "ful",
+        "fulout"
+    ]
+}
